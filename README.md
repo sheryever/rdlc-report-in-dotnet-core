@@ -12,7 +12,7 @@ You can utilize all the feature which are supported WebForms ReportViewer contro
 
 The solution is consist of two Web Applications
 - Reporting 
-  A WebForms application, which is hosting a WCF service, `ExportWithDataTables` operation will except the report defination and datatables
+  A WebForms application, which is hosting a WCF service, `ExportWithDataTables` operation will accept the report defination and datatables
 - ReportingClient
   A dotnet core 3 application with will call the Reporting service mathod to show how it will work.
   
