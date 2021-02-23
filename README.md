@@ -14,6 +14,6 @@ The solution is consist of two Web Applications
 - Reporting 
   A WebForms application, which is hosting a WCF service, `ExportWithDataTables` operation will accept the report defination and datatables
 - ReportingClient
-  A dotnet core 3 application with will call the Reporting service mathod to show how it will work.
+  A dotnet core 3 application which will call the Reporting service mathod to show how it will work.
   
 The Reporting application controller also have some experimenting work of *defining* the c# class and creating it's object from *json string* at runtime, and then using the controller action to generate the report from the JSON Data which is used in the report like a table datasource
